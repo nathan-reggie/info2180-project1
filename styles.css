@@ -57,11 +57,28 @@ section.learn-about .container div.cards{
 
 section.learn-about .container .cards{
     grid-row: 2;
-} 
+}
+
+section.learn-about h2{
+    font-size: 24px;
+    color: #48bb78
+}
+
+section.learn-about h3{
+    font-size: 21px;
+    color:#48bb78
+}
 
 section.testing .container{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: #4a5568;
+    color: white
+}
+
+section.testing div.cta{
+    background-color: #48bb78;
     align-items: center;
 }
 
