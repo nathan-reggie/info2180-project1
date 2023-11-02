@@ -58,3 +58,18 @@ section.testing .container{
     flex-direction: row;
     align-items: center;
 }
+
+section.stories .container img{
+    height: 300px;
+    width: 300px;
+}
+
+section.stories .container article{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+section.stories .container div.article-body{
+    grid-column: 2;
+}
