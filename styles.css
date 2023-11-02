@@ -43,6 +43,12 @@ header div.container{
     width: 250px;
 }
 
+.overview-hero .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 section.learn-about .container div.cards{
     display: grid;
     grid-template-columns: auto auto auto;
